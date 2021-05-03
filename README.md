@@ -9,7 +9,6 @@ Don't forget to activate it for the assignment.
 
 ```bash:shell
  conda create --name tictactoe python=3.8.5
- conda install -n tictactoe pip
  ```
 
 ## Task 2
