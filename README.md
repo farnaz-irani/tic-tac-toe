@@ -4,7 +4,8 @@ Today we're going to test and improve our coding skills by creating a simple gam
 
 ## Task 1
 
-Fork this repository, clone it on your machine and create a new environment inside the folder. Don't forget to activate it for the assignment. 
+Fork this repository, clone it on your machine and create a new environment.  
+Don't forget to activate it for the assignment. 
 
 ```bash:shell
  conda create --name tictactoe python=3.8.5
