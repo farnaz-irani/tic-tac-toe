@@ -17,6 +17,6 @@ Create a new virtual environment called *tictactoe*.
 
 ## Task 3
 
-Write your own Tic-Tac-Toe game. The assignment file contains a description on how the game should work. It may also help you to create a good structure for your code. 
+Write your own Tic-Tac-Toe game. The [assignment file](Tic-Tac-Toe-assignment.md) contains a description on how the game should work. It may also help you to create a good structure for your code. 
 
 
