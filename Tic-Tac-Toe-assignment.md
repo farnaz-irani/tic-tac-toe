@@ -49,18 +49,15 @@ or this...
 (0, 2), (1, 2), (2, 2)   
 
 
-### Step 3: Choose a symbol  
-Before we can start playing it would be nice if the first player can choose whether to play with "X" or "O"! Player two must then choose the other. 
-
-
-### Step 4: Ask for player input 
+### Step 3: Ask for player input 
+Before we can start playing define what the markers will be for each player. Usually we just use "X" or "O".  
 Now you need a function that asks the player (whose turn it is) where he wants to put his marker. The built-in function `input()` will do this task for you. 
 If you want, you can directly add a control mechanism that checks if the desired position was already occupied in a previous turn. 
 
-### Step 5: Check for Winner
+### Step 4: Check for Winner
 At the end of each turn, your script will have to determine if the most recent play resulted in a win. If it did, it should break the game loop, the player that just played will be declared the winner, the game will be over, and the script will terminate. If a winner is not found, play will continue. Keep in mind that there are 8 different ways for a player to get three in a row. The function you write to solve this part of the problem will have to implement a lot of logic. Hint: One way to potentially make this part less code-intensive is by using the built-in function `all()`.
 
-### Step 6: Check for Draw
+### Step 5: Check for Draw
 There is a distinct chance that a draw will occur in the game. If this happens, your script should be aware. If all of the squares have been filled in, and there is no winner, it should break the game loop and a draw should be declared. 
 
 ## If you want to take it further...
