@@ -25,7 +25,7 @@ Before you start coding, think about the game. Your version of the game can have
 But since it's your first coding challenge, let's keep it simple:
 
 Take your time to write Pseudocode for the game. This is essential and not to be neglected!  
-Already in your pseduocode consider to split the game into several, smaller functions, each for a specific task, instead of writing one big function. This makes it easier to write and debug your code. You can capture possible extenstions in psuedocode. Read through your step by step code and determine if somethings can be listed as 'nice to have' that can be removed from the MVP and saved for any possible further versions.  
+Already in your pseduocode consider to split the game into several, smaller functions, each for a specific task, instead of writing one big function. This makes it easier to write and debug your code. You can capture possible extensions in psuedocode. Read through your step by step code and determine if somethings can be listed as 'nice to have' that can be removed from the MVP and saved for any possible further versions.  
 Have a look at the file [Intro_to_pseudocode.md](Intro_to_pseudocode.md), which will help you to write your Pseudocode.
  
 
