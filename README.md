@@ -1,13 +1,14 @@
 # Coding Challenge - Tic-Tac-Toe
 
-Today we're going to test and improve our coding skills by creating a simple game of Tic-Tac-Toe in Python. 
+Today we're going to test and improve our coding skills by creating a simple game of Tic-Tac-Toe in Python.  
+This is not an easy task, but the goal is to solve it by writing good Pseudocode, splitting the problem into smaller chunks and having the concept of MVP in mind!      
+Focus on having fun and trying things out. Don't worry how your result compares to others!
 
-## Task 1
+To get started first do the following:
+### Set up your Repository
 Fork and clone that repo to your local machine.  
-Before you start, have a look at the file [Intro_to_pseudocode.md](Intro_to_pseudocode.md). The technique described there could be useful for this task. 
-Start the challenge by writing Pseudocode!
 
-## Task 2
+### Create your Virtual Environment
 
 Create a new virtual environment called *tictactoe*.  
 
@@ -15,8 +16,8 @@ Create a new virtual environment called *tictactoe*.
  conda create --name tictactoe python=3.8.5
  ```
 
-## Task 3
+## Now Work on Assignment
+Read through the [assignment file](Tic-Tac-Toe-assignment.md) and follow the steps described there. 
 
-Write your own Tic-Tac-Toe game. The [assignment file](Tic-Tac-Toe-assignment.md) contains a description on how the game should work. It may also help you to create a good structure for your code. 
 
 
