@@ -16,7 +16,7 @@ This file will give suggestions on how to write this program. Remember, though, 
 
 Hints:
 - Your first version of the game does not have to take into account everything that could go wrong. But should work in a 'happy flow' state where user takes only expected actions.
-- Only if you are done with your MVP, should you go back to consider error handling, for example handling if the users types something outside a specific range or in the wrong format. 
+- Only if you are done with your MVP, you should go back to consider error handling, for example handling if the user types something outside a specific range or in the wrong format. 
 - The game does not have to look nice! Keep it simple. There is no need for a fancy visual interface :)  
 
 ## Task Breakdown
