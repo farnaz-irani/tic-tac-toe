@@ -16,7 +16,7 @@ Create a new virtual environment called *tictactoe*.
  conda create --name tictactoe python=3.8.5
  ```
 
-## Now Work on Assignment
+### Now Work on Assignment
 Read through the [assignment file](Tic-Tac-Toe-assignment.md) and follow the steps described there. 
 
 
