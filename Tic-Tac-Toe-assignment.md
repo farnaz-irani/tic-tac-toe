@@ -12,7 +12,7 @@ This file will give suggestions on how to write this program. Remember, though, 
 
 + Psuedocode explaining the logic of your code
 + A working Python script that allows two people to play tic-tac-toe against each other. 
-+ The game should be able to be started by running the script in the command line. 
+  + The game should be able to be started by running the script in the command line. 
 
 Hints:
 - Your first version of the game does not have to take into account everything that could go wrong. But should work in a 'happy flow' state where user takes only expected actions.
