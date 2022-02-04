@@ -8,14 +8,6 @@ To get started first do the following:
 ### Set up your Repository
 Fork and clone that repo to your local machine.  
 
-### Create your Virtual Environment
-
-Create a new virtual environment called *tictactoe*.  
-
-```bash:shell
- conda create --name tictactoe python=3.8.5
- ```
-
 ### Now Work on Assignment
 Read through the [assignment file](Tic-Tac-Toe-assignment.md) and follow the steps described there. 
 
