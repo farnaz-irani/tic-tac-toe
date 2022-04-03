@@ -1,5 +1,3 @@
-#!/usr/local/bin/python
-# coding: utf-8
 
 # In this script you can write your code.
 # Start by writing all the functions.
@@ -42,7 +40,7 @@ def are_the_indices_a_match(board, i1, i2, i3):
     return board[i1] is board[i2] and board[i2] is board[i3]
 
 
-def is_game_over(board):
+def is_there_winner(board):
     """
     >>> is_game_over(['', 'X', 'X', 'X', '', '', '', '', '', ''])
     True
@@ -72,11 +70,12 @@ if __name__ == "__main__":
     # Start a new round of Tic-tac-toe
     print("Welcome to a new round of Tic-Tac-Toe!")
     print_board()
-    counter = 1
-    while True:
+    for counter in range(9):
         next_move = choose_player_turn(counter)
-        if is_game_over(board):
-            print('The game is over!')
+        if is_there_winner(board):
+            winner = 'X' if counter % 2 == 0 else 'O'
+            print(f'The game is over! Player {winner} is the winner')
             break
-        counter += 1
+    if not is_there_winner(board):
+        print('The game is over. Draw!')
     
