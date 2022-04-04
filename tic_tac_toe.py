@@ -59,6 +59,7 @@ def is_there_winner(board):
             game_ended = True
     return game_ended
 
+
 def play_game():
     board = ['']*10
     show_board(board)
@@ -70,7 +71,7 @@ def play_game():
             break
     if not is_there_winner(board):
         print('The game is over. Draw!')
-    
+   
 
 
 
@@ -79,14 +80,6 @@ if __name__ == "__main__":
     # Start a new round of Tic-tac-toe
     print("Welcome to a new round of Tic-Tac-Toe!")
     play_game()
-    # board = ['']*10
-    # show_board(board)
-    # for counter in range(9):
-    #     next_move = choose_player_turn(board, counter)
-    #     if is_there_winner(board):
-    #         winner = 'X' if counter % 2 == 0 else 'O'
-    #         print(f'The game is over! Player {winner} is the winner')
-    #         break
-    # if not is_there_winner(board):
-    #     print('The game is over. Draw!')
+
+
     
