@@ -4,10 +4,8 @@
 # In the last part after if __name__ == "__main__": you can call the functions to play your game.
 # If you run `python tic_tac_toe.py` in the command line the game will start. Try it out! ;)
 
-board = ['']*10
-
 # Function for ... (displaying the board?)
-def print_board():
+def show_board(board):
     b = [board[i] if board[i] else str(i) for i in range(0, 10)]
     print(f'{b[1]}┃{b[2]}┃{b[3]}')
     print('━╋━╋━')
@@ -16,17 +14,16 @@ def print_board():
     print(f'{b[7]}┃{b[8]}┃{b[9]}')
 
 # Function for... (choosing a player?)
-def choose_player_turn(counter):
-    global board
+def choose_player_turn(board, counter):
     if counter % 2 == 0:
         player_type = 'X'
     else:
         player_type = 'O'
     next_move = int(input('Player %s\'s turn; enter a number in [1..9]: ' % player_type))
-    if board[next_move] != '':
+    while board[next_move] != '':
         next_move = int(input('the cell %s is already occupied, try another number: ' % next_move))
     board[next_move] = player_type
-    print_board()
+    show_board(board)
     return next_move
 
 
@@ -62,20 +59,34 @@ def is_there_winner(board):
             game_ended = True
     return game_ended
 
-        
-
-
-# Tic-tac-toe game
-if __name__ == "__main__":
-    # Start a new round of Tic-tac-toe
-    print("Welcome to a new round of Tic-Tac-Toe!")
-    print_board()
+def play_game():
+    board = ['']*10
+    show_board(board)
     for counter in range(9):
-        next_move = choose_player_turn(counter)
+        next_move = choose_player_turn(board, counter)
         if is_there_winner(board):
             winner = 'X' if counter % 2 == 0 else 'O'
             print(f'The game is over! Player {winner} is the winner')
             break
     if not is_there_winner(board):
         print('The game is over. Draw!')
+    
+
+
+
+# Tic-tac-toe game
+if __name__ == "__main__":
+    # Start a new round of Tic-tac-toe
+    print("Welcome to a new round of Tic-Tac-Toe!")
+    play_game()
+    # board = ['']*10
+    # show_board(board)
+    # for counter in range(9):
+    #     next_move = choose_player_turn(board, counter)
+    #     if is_there_winner(board):
+    #         winner = 'X' if counter % 2 == 0 else 'O'
+    #         print(f'The game is over! Player {winner} is the winner')
+    #         break
+    # if not is_there_winner(board):
+    #     print('The game is over. Draw!')
     
